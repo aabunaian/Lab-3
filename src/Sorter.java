@@ -3,9 +3,7 @@ import java.util.Arrays;
 public class Sorter {
     public static void main(String[] args) {
         int[] intArray = new int[]{ 43,4,354,64,2,67,3 };
-        insertionSort(intArray);
-        System.out.println(Arrays.toString(intArray));
-
+        sort(intArray);
         int[] myArray = {4, 2 ,1 ,6 ,8};
         selectionSort(myArray);
         System.out.print(Arrays.toString(myArray));
@@ -40,6 +38,10 @@ public class Sorter {
                 list[i] = currentMin;
             }
         }
+    }
+    public static void sort (int[] list){
+        insertionSort(list);
+        System.out.println(Arrays.toString(list));
     }
 
 }
