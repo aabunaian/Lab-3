@@ -5,10 +5,7 @@ public class Sorter {
         int[] intArray = new int[]{ 43,4,354,64,2,67,3 };
         sort(intArray);
         int[] myArray = {4, 2 ,1 ,6 ,8};
-        selectionSort(myArray);
-        System.out.println(Arrays.toString(myArray));
-        System.out.println("-----------------------");
-
+        sort2(myArray);
     }
 
         public static void insertionSort(int array[]) {
@@ -44,15 +41,9 @@ public class Sorter {
         insertionSort(list);
         System.out.println(Arrays.toString(list));
     }
+    public static void sort2(int[] list){
+        selectionSort(list);
+        System.out.println(Arrays.toString(list));
+    }
 
 }
-
-
-
-
-
-
-
-
-    
-
