@@ -6,6 +6,7 @@ public class Sorter {
         sort(intArray);
         int[] myArray = {4, 2 ,1 ,6 ,8};
         sort2(myArray);
+        System.out.println("--------------");
     }
 
         public static void insertionSort(int array[]) {
