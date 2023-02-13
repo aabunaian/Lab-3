@@ -6,7 +6,8 @@ public class Sorter {
         sort(intArray);
         int[] myArray = {4, 2 ,1 ,6 ,8};
         selectionSort(myArray);
-        System.out.print(Arrays.toString(myArray));
+        System.out.println(Arrays.toString(myArray));
+        System.out.println("-----------------------");
 
     }
 
